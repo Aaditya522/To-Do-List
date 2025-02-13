@@ -1,0 +1,325 @@
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing:border-box;
+        }
+            
+        body{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(45, 43, 43);
+            align-items: center;
+            justify-content: center;
+            padding:10px 0px 10px 0px;
+        }
+        
+        .nav{
+             display: flex;
+             width:100%;
+             background-color: rgba(222, 212, 212, 0);
+             align-items: center;
+             justify-content: center;
+             padding: 10px;
+             margin-top: 20px;
+        }
+        header h1{
+             font-family:Georgia, 'Times New Roman', Times, serif;
+             color: rgb(255, 255, 255);
+             text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+        }
+        .container{
+             display: flex;
+             flex-direction: column;
+             width: 100%;
+             height:80px;
+             align-items: center;
+             justify-content: center;
+             border-radius: 15px;
+             border:1px solid black;
+             margin: 20px 10px 20px 10px;
+             padding: 10px;
+             background-color: rgb(36, 34, 34);
+             box-shadow: inset 2px 0px 6px 2px rgb(24, 24, 26);
+             transition: 0.2s;
+
+        }
+        .input{
+             display: flex;
+             width: 50%;
+             height:100%;
+             justify-content: center;
+             align-items: center;
+             border:2px solid rgb(13, 11, 11);
+             border-radius: 40px;
+             background-color: aliceblue;
+             /* box-shadow: 0px 0px 6px 2px rgb(101, 101, 102); */
+        }
+        .text{
+            height: 30px;
+            width:90%;
+            height:80%;
+            padding: 10px;
+            margin:5px 0px;
+            font-size: medium;
+            background-color: rgb(36, 34, 34);
+            border:1px solid black;
+            border-radius: 40px;
+            box-shadow: inset 2px 0px 6px 2px rgb(50, 50, 51);
+            color: aliceblue;
+        }
+        .btn{
+            background-color: red;
+            color:aliceblue;
+            font-size: larger;
+            height: 40px;
+            width:40px;
+            border-radius: 50%;
+            margin: 2px;
+            padding: auto;
+            cursor: pointer;
+            text-align: center;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+        .btn:hover{
+            background-color: red;
+            color:aliceblue;
+            font-size: larger;
+            height: 38px;
+            width:38px;
+            border-radius: 50%;
+            margin: 2px;
+            padding: auto;
+            cursor: pointer;
+            text-align: center;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+        .list{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height:80%;
+            margin:5px;
+        }
+        .ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .li{
+            display: flex;
+            background-color: rgb(0, 60, 255);
+            width: 100%;
+            height: 55px;
+            border: 4px solid black;
+            border-radius: 30px;
+            padding: 10px 0px 10px 0px ;
+            margin-top: 10px;
+            align-items: center;
+            color:white;
+            box-shadow: inset 2px 0px 6px 2px rgb(2, 1, 70);
+            transition: .3s;
+        }
+        .li:hover{
+            background-color: rgb(0, 60, 255);
+            width: 100%;
+            height: 55px;
+            border: 4px solid black;
+            border-radius: 30px;
+            padding: 10px;
+            margin-top:10px;
+            color:white;
+            box-shadow: inset 2px 0px 6px 2px rgb(2, 1, 70);
+        }
+
+        .div1{
+            display: flex;
+            width: 355px;
+            height: 40px;
+            padding: 0px ;
+            margin: 0px;
+            align-items: center;
+            float:left;
+
+        }
+
+        .div2{
+            display: flex;
+            width: 110px;
+            height: 40px;
+            align-items: center;
+            float: right;
+            padding: 2px;
+
+        }
+
+
+        .dlt{
+            float:inline-end;
+            background-color: rgb(134, 3, 62); 
+            color: aliceblue;
+            font-size: medium;
+            width: 45px;
+            height:30px;
+            margin:2px;
+            border: 2px solid black;
+            border-radius: 30px;
+            cursor: pointer;
+            text-align: center;
+            transition: .3s;
+            box-shadow: inset 2px 0px 6px 2px rgb(58, 1, 34);
+        }
+
+        .dlt:hover{
+            background-color: rgb(134, 3, 62); 
+            color: aliceblue;
+            font-size: medium;
+            width: 45px;
+            height:30px;
+            margin: 7px;
+            border: 2px solid rgb(250, 239, 239);
+            border-radius: 30px;
+            float: inline-end;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .check{
+            float: inline-start;
+            margin: 10px;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .todo{
+            color: aliceblue;
+            font-size: medium;
+            width: 250px;
+            height:25px;
+            text-align:start;
+            float:inline-start;
+        }
+
+        .editor{
+            height: 20px;
+            width:40%;
+            background-color: transparent;
+            padding: 10px;
+            margin:5px;
+            font-size: x-small;
+            box-shadow: 0px 2px 1px 0px rgb(164, 28, 28);
+            color:aliceblue
+        }
+
+
+
+
+
+
+
+
+    @media only screen and (max-width:400px){
+        .input{
+            width: 100%;
+            padding-left:5px;
+            padding-right: 5px;
+       }
+       .text{
+           height: 90%;
+           width: 95%;
+       }
+        .container{
+            width: 100%;
+        }
+        .container:hover{
+            width: 100%;
+        }
+        header h1{
+            font-size: x-large;
+        }
+        .li{
+            width:100%;
+            height:60px;
+            padding: 5px;
+            margin-top: 8px;
+        }
+        .li:hover{
+            width:100%;
+            height:62px;
+            padding: 8px;
+            margin-top: 8px;
+        }
+    }
+
+    @media only screen and (max-width:685px){
+        .input{
+            width: 100%;
+        }
+        .text{
+            width:95%;
+            height:90%;
+        }
+        .li{
+            width:100%;
+            height:60px;
+            padding: 8px;
+            margin-top: 8px;
+        }
+        .li:hover{
+            width:100%;
+            height:62px;
+            padding: 8px;
+            margin-top: 8px;
+        }
+        .div1{
+            width: 220px;
+            height: 30px;
+
+        }
+
+        .div2{
+            width: 80px;
+            height: 30px;
+            padding: 1px;
+        }
+
+        .dlt{
+            font-size: smaller;
+            width: 40px;
+            height:30px;
+            margin:2px;
+            border-radius: 30px;
+        
+        }
+
+
+        .check{
+            margin-left: 10px;
+            width: 20px;
+            height: 20px;
+        }
+
+        .todo{
+            font-size: small;
+            width: 170px;
+            height:20px;
+        }
+
+    }
+
+    @media only screen and (max-width:1000px){
+        .input{
+            width: 100%;
+            padding-left:5px;
+            padding-right: 5px;
+       }
+       .text{
+           height: 90%;
+           width: 95%;
+       }
+    }
