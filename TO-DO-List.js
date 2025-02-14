@@ -37,8 +37,8 @@ function createToDo(text, checked = false) {
     check.checked = checked;
 
     todo.innerText = userinput;
-    dlt.innerText = "🗑";
-    edit.innerText = "📝";
+    dlt.innerText = "❌";
+    edit.innerText = "✏";
     li.classList.add("li");
     div1.classList.add("div1");
     div2.classList.add("div2");
