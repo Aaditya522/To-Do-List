@@ -120,6 +120,7 @@
             padding: 10px 0px 10px 0px ;
             margin-top: 10px;
             align-items: center;
+            justify-content: space-between;
             color:white;
             box-shadow: inset 2px 0px 6px 2px rgb(2, 1, 70);
             transition: .3s;
